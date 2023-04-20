@@ -1,0 +1,28 @@
+/* Usando la propiedad float */
+.contenedor{
+    color:white;
+    width: 20%;
+}
+#contenedor1 {
+    background-color: black;
+    float: left;
+}
+#contenedor2 {
+    background-color: green;
+    float: left;
+    bottom:0px;
+    position: absolute;
+
+}
+#contenedor3 {
+    background-color: blue;
+    float:left;
+}
+
+#contenedor4 {
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    
+}

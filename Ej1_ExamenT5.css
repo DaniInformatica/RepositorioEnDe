@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto&family=Satisfy&display=swap');
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+p::first-letter{
+    font-size: 1.5em;
+}
+
+header > p {
+    color: gold;
+    font-family: 'Satisfy', cursive;
+}
+
+header{
+    padding: 1em;
+    color: white;
+    font-weight: bolder;
+    background-image: url("inteligencia-artificial.jpeg");
+}
+
+main{
+    color: white;
+    background: linear-gradient(to top, LightSlateGray, black);
+}
+
+h1{
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+
+#titulo3{
+    color: brown;
+}
