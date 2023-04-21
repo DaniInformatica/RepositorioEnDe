@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Madrid</title>
+</head>
+<body>
+    <header>
+        <h1>Hotel Mauricio Madrid ***</h1>
+    </header>
+    <body>
+        <form action="Recu4_Ej1_5Final.html" id="formularioMadrid">
+            <fieldset form="formularioinicio">
+                <legend><i>Realice su reserva</i></legend>
+                <p>Fecha y hora aproximada de entrada: <input type="datetime-local" required></p>
+                <p>Fecha de salida: <input type="date" required></p>
+                <p>Teléfono de contacto: <input type="tel" placeholder="+00 000 000 000" required> </p>
+                <p>Tipo de habitación:</p>
+                <select>
+                    <option value="opcion1">Individual</option>
+                    <option value="opcion2">Doble</option>
+                    <option value="opcion3">Suite</option>
+                </select>
+                <p>Tipo de cliente</p>
+                <input type="radio" name="tipocliente" id="Empresa"> <label for="Empresa">Empresa</label>
+                <input type="radio" name="tipocliente" id="Particular"> <label for="Particular">Particular</label>
+            </fieldset>
+            <input type="submit"> <input type="reset">
+        </form>
+        <p>Opiniones de los usuarios: </p>
+        <iframe width="300" height="100" src="Recu4_Ej1_opinionesMadrid.html"></iframe>
+
+    </body>
+</body>
+</html>
